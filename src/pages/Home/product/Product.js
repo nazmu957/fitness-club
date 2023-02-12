@@ -1,5 +1,7 @@
 import React from 'react'
 import product1 from '../../../assets/Rectangle 4.png'
+import product2 from '../../../assets/Rectangle 5.png'
+import product3 from '../../../assets/Rectangle6.png'
 
 const Product = () => {
   return (
@@ -31,7 +33,7 @@ const Product = () => {
         </div>
         <div className="card card-compact w-96 bg-base-100">
           <figure>
-            <img src={product1} alt="Shoes" />
+            <img src={product2} alt="Shoes" />
           </figure>
           <div className="card-body ml-5">
             <h2 className="card-title text-sm">Rogue HG 2.0 Bumper Plates</h2>
@@ -42,7 +44,7 @@ const Product = () => {
         </div>
         <div className="card card-compact w-96 bg-base-100">
           <figure>
-            <img src={product1} alt="Shoes" />
+            <img src={product3} alt="Shoes" />
           </figure>
           <div className="card-body ml-5">
             <h2 className="card-title text-sm">Rogue HG 2.0 Bumper Plates</h2>

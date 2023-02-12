@@ -2,6 +2,7 @@ import React from 'react';
 import {Search} from '@styled-icons/remix-line/Search'
 import {User} from '@styled-icons/fa-regular/User'
 import {ShoppingBag} from '@styled-icons/evaicons-solid/ShoppingBag'
+import { Link } from 'react-router-dom';
 
 
 
@@ -45,7 +46,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end ">
        <Search className="px-2 h-[20px]"></Search>
-       <User className="px-2 h-[20px]"></User>
+       <Link to="login">  <User className="px-2 h-[20px]"></User></Link>
        <ShoppingBag className="px-2 mr-10 h-[20px]" ></ShoppingBag>
   </div>
 </div>
